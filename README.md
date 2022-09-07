@@ -44,3 +44,5 @@ After seeding DB, 20 user and stock record will be created. <br/>
 Each user has 1000$ deposit by default. User list is sorted by profit, not deposit. User can buy stocks, before he's deposit > stock price * amount. <br />
 Stocks are editable and it can be deleted. <br />
 Users are also editable. 
+<br />
+Deployment started on `HEROKU` but mysql integration requires credit card credentials and didn't finished
