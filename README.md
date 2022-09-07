@@ -22,6 +22,7 @@
 - If you have not renamed the `.env.example` file to `.env`, you should do that now. Set database credentials in `.env`
 - For datebase migration run this command: `php artisan migrate` and `php artisan db:seed`
 - Run this command using terminal or cmd: `php artisan key:generate`
+- Run this command using terminal or cmd to link laravel storage and public directories: `php artisan storage:link`
 - Run this command for start server: `php artisan serve`
 
 ### Vue
@@ -36,3 +37,10 @@
 $ npm install
 ```
 - Run this command for start server: `npm run watch`
+
+
+### Example
+After seeding DB, 20 user and stock record will be created. <br/>
+Each user has 1000$ deposit by default. User list is sorted by profit, not deposit. User can buy stocks, before he's deposit > stock price * amount. <br />
+Stocks are editable and it can be deleted. <br />
+Users are also editable. 
