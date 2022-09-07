@@ -45,4 +45,4 @@ Each user has 1000$ deposit by default. User list is sorted by profit, not depos
 Stocks are editable and it can be deleted. <br />
 Users are also editable. 
 <br />
-Deployment started on `HEROKU` but mysql integration requires credit card credentials and didn't finished
+Deployment started on `HEROKU` but mysql integration is not free, so couldn't finish it
