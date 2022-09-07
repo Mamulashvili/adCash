@@ -1,0 +1,74 @@
+// Colors
+$bg-primary: #fff;
+$bg-secondary: #F3F6F8;
+
+$txt-accent: #0F6A6B;
+$txt-primary: #A2A6AF;
+$txt-secondary: #727180;
+$txt-danger: #df1327;
+
+
+// Fonts
+$fs-default: 15px;
+$fs-logo: 14px;
+$fs-medium: 14px;
+$fs-s: 11px;
+
+$user-avatar-size: 25px;
+
+$brd-radius: 7px;
+
+.bg-primary {
+  background-color: $bg-secondary;
+}
+.bg-secondary {
+  background-color: $bg-secondary;
+}
+
+.txt-accent {
+  color: $txt-accent;
+}
+
+.txt-primary {
+  color: $txt-primary;
+}
+
+.txt-secondary {
+  color: $txt-secondary;
+}
+
+.txt-danger {
+  color: $txt-danger;
+}
+
+.fs-default {
+  font-size: $fs-default;
+}
+
+.fs-logo {
+  font-size: $fs-logo;
+}
+
+.fs-medium {
+  font-size: $fs-medium;
+}
+
+.fs-s {
+  font-size: $fs-s;
+}
+
+.brd-radius {
+  border-radius: $brd-radius;
+}
+
+.brd-rounded {
+  border-radius: 50px;
+}
+
+.def-brd {
+  border: 1px solid $bg-secondary;
+}
+
+.user-avatar {
+  width: $user-avatar-size
+}

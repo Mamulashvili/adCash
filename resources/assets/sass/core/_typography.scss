@@ -1,0 +1,15 @@
+@import url('https: //fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+  p.secondary-title span {
+    &:first-child {
+      color: #5e697b;
+    }
+
+    &:last-child {
+      color: #9299a4;
+    }
+  }

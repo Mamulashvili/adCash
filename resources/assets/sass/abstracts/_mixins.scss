@@ -1,0 +1,34 @@
+// Bootstrap-like Spacing
+@mixin generateSpacing($prefix, $property) {
+
+  $sizes: [0,
+  .25,
+  .5,
+  1,
+  1.5,
+  3];
+  $spacing: 1rem;
+
+  @for $i from 1 through length($sizes) {
+    $size: nth($sizes, $i);
+
+    .#{$prefix}-#{$i - 1} {
+      #{$property}: $spacing * $size;
+    }
+  }
+}
+
+$rules: [ 
+  [ml, margin-left],
+  [mt, margin-top],
+  [mb, margin-bottom],
+  [mr, margin-right],
+  [pl, padding-left],
+  [pt, padding-top],
+  [pb, padding-bottom],
+  [pr, padding-right],
+  ];
+
+@each $item in $rules {
+  @include generateSpacing(nth($item, 1), nth($item, 2));
+}

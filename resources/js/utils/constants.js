@@ -1,0 +1,1 @@
+export const GET_NEW_USERS_LIMIT = 3;
